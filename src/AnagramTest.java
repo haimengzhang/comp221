@@ -14,25 +14,6 @@ public class AnagramTest {
 
     Anagram ana = new Anagram();
 
-//    @Test
-////    public void testUserInput() {
-//
-//        // one way to do it? --> Store strings into an array of strings and read it into Byteinputstream
-//        String[] simulatedInputs = {"Keep", "Peek", "Eat", "Tea", "joy", "Enjoy"};
-//        ByteArrayInputStream in = new ByteArrayInputStream("simulatedInputs".getBytes());
-//        System.setIn(in);
-//
-//        // or can i do this? by importing a file into a stream and read the stream into system.in?
-//        //ByteArrayInputStream in = new ByteArrayInputStream("Eat".getBytes());
-//        //File file = new File("anagrams.txt");
-//        //ByteArrayInputStream in = new ByteArrayInputStream("Eat".getBytes());
-//        /*try {
-//            System.setIn(new FileInputStream("anagrams.txt"));
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        }
-//        */
-//    }
 
     @Test
     public void TestAnagram() {
